@@ -729,7 +729,7 @@ PrefabInstance:
     - target: {fileID: 9000859924483548312, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9000859924483548308, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
         type: 3}
@@ -856,6 +856,31 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9000859925335964629, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
+        type: 3}
+      propertyPath: defaultGunMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: bff4e8fbd3740ae4b8be7423472a33bc, type: 2}
+    - target: {fileID: 9000859925335964629, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
+        type: 3}
+      propertyPath: defaultMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: c721108ba155ab0479d828128e0efeb0, type: 2}
+    - target: {fileID: 9000859925335964624, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
+        type: 3}
+      propertyPath: hand.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9000859925335964624, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
+        type: 3}
+      propertyPath: defaultMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: c721108ba155ab0479d828128e0efeb0, type: 2}
+    - target: {fileID: 9000859925335964624, guid: a5d9b5e5447b9b946b85e0b7eea3f645,
+        type: 3}
+      propertyPath: defaultGunMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: bff4e8fbd3740ae4b8be7423472a33bc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d9b5e5447b9b946b85e0b7eea3f645, type: 3}
 --- !u!1001 &9076179445375120101
@@ -869,6 +894,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drogoz
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076179445626198834, guid: ba1f1e0efeeaf0948ab6391564d97734,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076179444736702439, guid: ba1f1e0efeeaf0948ab6391564d97734,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076179444736702439, guid: ba1f1e0efeeaf0948ab6391564d97734,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 9076179445626198846, guid: ba1f1e0efeeaf0948ab6391564d97734,
         type: 3}
@@ -954,16 +994,6 @@ PrefabInstance:
         type: 3}
       propertyPath: skillDuration
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 9076179444736702439, guid: ba1f1e0efeeaf0948ab6391564d97734,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9076179444736702439, guid: ba1f1e0efeeaf0948ab6391564d97734,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 9076179444734437671, guid: ba1f1e0efeeaf0948ab6391564d97734,
         type: 3}

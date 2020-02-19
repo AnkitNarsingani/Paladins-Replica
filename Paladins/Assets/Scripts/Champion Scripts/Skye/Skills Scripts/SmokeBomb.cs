@@ -6,6 +6,7 @@ public class SmokeBomb : Skills
 {
     public float smokeBombRadius;
     public Material defaultMaterial;
+    public Material defaultGunMaterial;
     public Material invisibleMaterial;
 
     public bool isInvisible = false;
@@ -66,18 +67,22 @@ public class SmokeBomb : Skills
         {
             for (int i = 0; i < gunController.GetEquipedGun().transform.childCount; i++)
             {
+                gunController.GetEquipedGun().GetComponent<MeshRenderer>().material = invisibleMaterial;
                 MeshRenderer meshRenderer = gunController.GetEquipedGun().transform.GetChild(i).GetComponent<MeshRenderer>();
+                Debug.Log(gunController.GetEquipedGun().transform.GetChild(i).name, this);
                 if (meshRenderer != null)
                     meshRenderer.material = invisibleMaterial;
+
             }
         }
         else
         {
             for (int i = 0; i < gunController.GetEquipedGun().transform.childCount; i++)
             {
+                gunController.GetEquipedGun().GetComponent<MeshRenderer>().material = defaultMaterial;
                 MeshRenderer meshRenderer = gunController.GetEquipedGun().transform.GetChild(i).GetComponent<MeshRenderer>();
                 if (meshRenderer != null)
-                    meshRenderer.material = defaultMaterial;
+                    meshRenderer.material = defaultGunMaterial;
             }
         }
     }
